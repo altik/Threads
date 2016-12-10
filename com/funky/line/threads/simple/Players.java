@@ -20,7 +20,6 @@ class Players {
         }
     }
 
-
     synchronized void doPong() throws InterruptedException {
         while (true) {
             if (state == PONG) {

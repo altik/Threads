@@ -14,7 +14,6 @@ public class ProduserConsumer {
             arr[index++] = 1;
             System.out.println(index);
             notify();
-
         }
     }
 
@@ -27,6 +26,4 @@ public class ProduserConsumer {
             notify();
         }
     }
-
-
 }
